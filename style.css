@@ -1,0 +1,417 @@
+body
+{
+    background-color: rgb(248, 246, 246);
+}
+#topbar
+{
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid rgb(206, 202, 202);
+    display: flex;
+    align-items: center;
+}
+#content
+{
+    width: 35%;
+    height: auto;
+    margin-left: 20%;
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+#story
+{
+    width: 100%;
+    height: 110px;
+    background-color: white;
+    border: 1px solid rgb(206, 202, 202);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+#container
+{
+    width: 100%; /* 466px */
+    height: auto;
+    background-color: white;
+    border: 1px solid rgb(206, 202, 202);
+    border-radius: 5px;
+    margin-top: 15px;
+}
+#heading
+{
+    width: auto;
+    height: 40px;
+    margin-left: 14%;
+}
+#search
+{
+    width: 240px;
+    padding: 3px 16px;
+    border-radius: 8px;
+    background-color: rgb(239, 239, 239, 1);
+    display: flex;
+    align-items: center;
+    margin-left: 15%;
+}
+.searchbar
+{
+    height: 25px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 0.5;
+    margin-left: 10px;
+}
+.fa-magnifying-glass
+{
+    color: #8e8e8e;
+}
+.home
+{
+    margin-left: 5%;
+    width: 32px;
+    height: 32px;
+}
+.fa
+{
+    margin-left: 20px;
+    font-size: 25px;
+}
+.profile
+{
+    margin-left: 20px;
+    width: 25px;
+    height: 25px;   
+    border-radius: 50px;
+    border: 1px solid rgb(206, 202, 202);
+}
+.stories
+{
+    width: 55px;
+    height: 55px;
+    background-image: linear-gradient(0deg, #ffc400, #f502be);
+    padding: 2px;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+#storydiv
+{
+    width: 16.67%;
+    height: 100px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#storydiv p
+{
+    margin-top: 5px;
+}
+.profile-title
+{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+.logo
+{
+    width: 13%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.username
+{
+    width: 75%;
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+.option
+{
+    width: 12%;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile-title img
+{
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgb(206, 202, 202);
+    border-radius: 50px;
+}
+.post
+{
+    width: 100%;
+    height: 640px;
+    border-width: 1px 0;
+    border-style: solid;
+    border-color:  rgb(206, 202, 202);
+}
+.post video
+{
+    width: 466px;
+    height: auto;
+    margin-bottom: 10px;
+}
+.lcs
+{
+    display: flex;
+    float: left;
+}
+.save
+{
+    display: flex;
+    float: right;
+    margin-right: 15px;
+}
+.tagline
+{
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    clear: both;
+    font-size: 14px;
+    line-height: 1px;
+}
+.tagline i
+{
+    color: rgb(11, 133, 182);
+    font-size: 16px;
+}
+.more
+{
+    margin-top: 0;
+    color: #8e8e8e;
+    font-size: 12px;
+}
+.comment-section p
+{
+    line-height: 1;
+    color: #8e8e8e;
+    font-size: 14px;
+}
+#comment-box
+{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.emoji
+{
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+}
+.comment
+{
+    width: 75%;
+    display: flex;
+    align-items: center;
+}
+.add-comment
+{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 15px;
+}
+.posting
+{
+    width: 15%;
+    color: rgb(41, 160, 207);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.post img
+{
+    width: 466px;
+    height: auto;
+    margin-bottom: 10px;
+}
+#suggestion-box
+{
+    width: 25%;
+    height: 500px;
+    display: flex;
+    margin-top: 95px;
+    float: right;
+    margin-right: 17%;
+    flex-direction: column;
+}
+#profile-box
+{
+    width: 100%;
+    height: 80px;
+    display: flex;
+}
+#profile-pic
+{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+#profile-pic img
+{
+    width: 55px;
+    height: 55px;
+    border-radius: 50px;
+    border: 1px solid rgb(206, 202, 202);
+}
+#profile-name
+{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 5px;
+    line-height: 1.5;
+}
+#insta-id
+{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+#name
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #8e8e8e;
+    font-size: 14px;
+    letter-spacing: 2;
+}
+#switch
+{
+    width: 20%;
+    height: 100%;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: rgb(35, 193, 255);
+}
+#suggestion-heading
+{
+    width: 100%;
+}
+#sfy
+{
+    width: 80%;
+    color: #8e8e8e;
+    font-size: 15px;
+    display: flex;
+    float: left;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#sa
+{
+    width: 20%;
+    font-size: 12px;
+    display: flex;
+    float: right;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+}
+#suggestions-list
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#suggestion
+{
+    width: 100%;
+    display: flex;
+}
+#profile-picture
+{
+    width: 13%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+#profile-picture img
+{
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    border: 1px solid rgb(206, 202, 202);
+}
+#profile-names-list
+{
+    width: 67%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 5px;
+    line-height: 1.5;
+}
+#id
+{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+#followed
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #8e8e8e;
+    font-size: 12px;
+    letter-spacing: 2;
+}
+#follow
+{
+    width: 20%;
+    height: 100%;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: rgb(35, 193, 255);
+}
+#list
+{
+    width: 100%;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:  rgb(206, 202, 202);
+}
+#copyright
+{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:  rgb(206, 202, 202);
+}
