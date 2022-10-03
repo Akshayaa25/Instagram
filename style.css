@@ -1,9 +1,8 @@
-body
-{
+body {
     background-color: rgb(248, 246, 246);
 }
-#topbar
-{
+
+#topbar {
     width: 100%;
     height: 60px;
     background-color: white;
@@ -14,8 +13,8 @@ body
     display: flex;
     align-items: center;
 }
-#content
-{
+
+#content {
     width: 35%;
     height: auto;
     margin-left: 20%;
@@ -24,33 +23,37 @@ body
     flex-direction: column;
     float: left;
 }
-#story
-{
+
+#story {
     width: 100%;
     height: 110px;
     background-color: white;
-    border: 1px solid rgb(206, 202, 202);
+    /* border: 1px solid rgb(206, 202, 202); */
+    outline: 1px solid rgb(206, 202, 202);
     border-radius: 5px;
     display: flex;
     align-items: center;
 }
-#container
-{
-    width: 100%; /* 466px */
+
+#container {
+    width: 100%;
+    /* 466px */
     height: auto;
     background-color: white;
-    border: 1px solid rgb(206, 202, 202);
+    /* border: 1px solid rgb(206, 202, 202); */
+    outline: 1px solid rgb(206, 202, 202);
     border-radius: 5px;
     margin-top: 15px;
 }
-#heading
-{
+
+#heading {
     width: auto;
     height: 40px;
     margin-left: 14%;
+    cursor: pointer;
 }
-#search
-{
+
+#search {
     width: 240px;
     padding: 3px 16px;
     border-radius: 8px;
@@ -59,8 +62,8 @@ body
     align-items: center;
     margin-left: 15%;
 }
-.searchbar
-{
+
+.searchbar {
     height: 25px;
     border: none;
     outline: none;
@@ -70,40 +73,45 @@ body
     font-weight: 0.5;
     margin-left: 10px;
 }
-.fa-magnifying-glass
-{
+
+.fa-magnifying-glass {
     color: #8e8e8e;
+    cursor: pointer;
 }
-.home
-{
+
+.home {
     margin-left: 5%;
     width: 32px;
     height: 32px;
+    cursor: pointer;
 }
-.fa
-{
+
+.fa {
     margin-left: 20px;
     font-size: 25px;
+    cursor: pointer;
 }
-.profile
-{
+
+.profile {
     margin-left: 20px;
     width: 25px;
-    height: 25px;   
+    height: 25px;
     border-radius: 50px;
     border: 1px solid rgb(206, 202, 202);
+    cursor: pointer;
 }
-.stories
-{
-    width: 55px;
-    height: 55px;
+
+.stories {
+    width: 70%;
+    height: auto;
     background-image: linear-gradient(0deg, #ffc400, #f502be);
     padding: 2px;
     border-radius: 50px;
     margin-top: 10px;
+    cursor: pointer;
 }
-#storydiv
-{
+
+#storydiv {
     width: 16.67%;
     height: 100px;
     display: flex;
@@ -113,26 +121,27 @@ body
     font-size: 12px;
     font-family: Arial, Helvetica, sans-serif;
 }
-#storydiv p
-{
+
+#storydiv p {
     margin-top: 5px;
+    cursor: pointer;
 }
-.profile-title
-{
+
+.profile-title {
     width: 100%;
     height: 60px;
     display: flex;
     align-items: center;
 }
-.logo
-{
+
+.logo {
     width: 13%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.username
-{
+
+.username {
     width: 75%;
     display: flex;
     align-items: center;
@@ -140,102 +149,110 @@ body
     font-size: 14px;
     font-weight: bold;
 }
-.option
-{
+
+.username p{
+    cursor: pointer;
+}
+
+.option {
     width: 12%;
     font-size: 18px;
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
-.profile-title img
-{
+
+.profile-title img {
     width: 30px;
     height: 30px;
     border: 1px solid rgb(206, 202, 202);
     border-radius: 50px;
+    cursor: pointer;
 }
-.post
-{
+
+.post {
     width: 100%;
     height: 640px;
     border-width: 1px 0;
     border-style: solid;
-    border-color:  rgb(206, 202, 202);
+    border-color: rgb(206, 202, 202);
 }
-.post video
-{
-    width: 466px;
+
+.post video {
+    width: 100%;
     height: auto;
     margin-bottom: 10px;
 }
-.lcs
-{
+
+.lcs {
     display: flex;
     float: left;
 }
-.save
-{
+
+.save {
     display: flex;
     float: right;
     margin-right: 15px;
 }
-.tagline
-{
+
+.tagline {
     padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
     clear: both;
     font-size: 14px;
     line-height: 1px;
 }
-.tagline i
-{
+
+.tagline i {
     color: rgb(11, 133, 182);
     font-size: 16px;
 }
-.more
-{
+
+.more {
     margin-top: 0;
     color: #8e8e8e;
     font-size: 12px;
 }
-.comment-section p
-{
+
+.comment-section p {
     line-height: 1;
     color: #8e8e8e;
     font-size: 14px;
+    cursor: pointer;
 }
-#comment-box
-{
+
+#comment-box {
     width: 100%;
     height: 50px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.emoji
-{
+
+.emoji {
     width: 10%;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 24px;
+    cursor: pointer;
 }
-.comment
-{
+
+.comment {
     width: 75%;
     display: flex;
     align-items: center;
 }
-.add-comment
-{
+
+.add-comment {
     border: none;
     outline: none;
     background-color: transparent;
     font-size: 15px;
 }
-.posting
-{
+
+.posting {
     width: 15%;
     color: rgb(41, 160, 207);
     font-family: Arial, Helvetica, sans-serif;
@@ -245,14 +262,14 @@ body
     align-items: center;
     justify-content: center;
 }
-.post img
-{
-    width: 466px;
+
+.post img {
+    width: 100%;
     height: auto;
     margin-bottom: 10px;
 }
-#suggestion-box
-{
+
+#suggestion-box {
     width: 25%;
     height: 500px;
     display: flex;
@@ -261,29 +278,30 @@ body
     margin-right: 17%;
     flex-direction: column;
 }
-#profile-box
-{
+
+#profile-box {
     width: 100%;
     height: 80px;
     display: flex;
 }
-#profile-pic
-{
+
+#profile-pic {
     width: 20%;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
 }
-#profile-pic img
-{
-    width: 55px;
-    height: 55px;
+
+#profile-pic img {
+    width: 85%;
+    height: auto;
     border-radius: 50px;
     border: 1px solid rgb(206, 202, 202);
+    cursor: pointer;
 }
-#profile-name
-{
+
+#profile-name {
     width: 60%;
     height: 100%;
     display: flex;
@@ -292,21 +310,23 @@ body
     padding-left: 5px;
     line-height: 1.5;
 }
-#insta-id
-{
+
+#insta-id {
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
+    cursor: pointer;
 }
-#name
-{
+
+#name {
     font-family: Arial, Helvetica, sans-serif;
     color: #8e8e8e;
     font-size: 14px;
     letter-spacing: 2;
+    cursor: pointer;
 }
-#switch
-{
+
+#switch {
     width: 20%;
     height: 100%;
     font-weight: bold;
@@ -316,13 +336,14 @@ body
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
     color: rgb(35, 193, 255);
+    cursor: pointer;
 }
-#suggestion-heading
-{
+
+#suggestion-heading {
     width: 100%;
 }
-#sfy
-{
+
+#sfy {
     width: 80%;
     color: #8e8e8e;
     font-size: 15px;
@@ -331,8 +352,8 @@ body
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
 }
-#sa
-{
+
+#sa {
     width: 20%;
     font-size: 12px;
     display: flex;
@@ -340,35 +361,37 @@ body
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     justify-content: center;
+    cursor: pointer;
 }
-#suggestions-list
-{
+
+#suggestions-list {
     width: 100%;
     display: flex;
     flex-direction: column;
 }
-#suggestion
-{
+
+#suggestion {
     width: 100%;
     display: flex;
 }
-#profile-picture
-{
+
+#profile-picture {
     width: 13%;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
 }
-#profile-picture img
-{
-    width: 35px;
-    height: 35px;
+
+#profile-picture img {
+    width: 85%;
+    height: auto;
     border-radius: 50px;
     border: 1px solid rgb(206, 202, 202);
+    cursor: pointer;
 }
-#profile-names-list
-{
+
+#profile-names-list {
     width: 67%;
     height: 100%;
     display: flex;
@@ -377,21 +400,23 @@ body
     padding-left: 5px;
     line-height: 1.5;
 }
-#id
-{
+
+#id {
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
+    cursor: pointer;
 }
-#followed
-{
+
+#followed {
     font-family: Arial, Helvetica, sans-serif;
     color: #8e8e8e;
     font-size: 12px;
     letter-spacing: 2;
+    cursor: pointer;
 }
-#follow
-{
+
+#follow {
     width: 20%;
     height: 100%;
     font-weight: bold;
@@ -401,17 +426,28 @@ body
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
     color: rgb(35, 193, 255);
+    cursor: pointer;
 }
-#list
-{
+
+#list {
     width: 100%;
     font-size: 12px;
     font-family: Arial, Helvetica, sans-serif;
-    color:  rgb(206, 202, 202);
+    color: rgb(206, 202, 202);
 }
-#copyright
-{
+
+#copyright {
     font-size: 12px;
     font-family: Arial, Helvetica, sans-serif;
-    color:  rgb(206, 202, 202);
+    color: rgb(206, 202, 202);
+}
+
+b
+{
+    cursor: pointer;
+}
+
+.material-symbols-outlined
+{
+    cursor: pointer;
 }
